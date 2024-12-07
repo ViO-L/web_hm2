@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+}
+
+.container {
+    max-width: 1274px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header {
+    margin: 40px;
+    margin-bottom: 84px;
+}
+.nav_be {
+    color: #f25822
+}
+
+
+.nav_link {
+    width: 137px;
+}
+
+.link_nav {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+
+}
+
+.main {
+    margin-bottom: 98px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content {
+    max-width: 589px;
+}
+.main_tutle {
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+
+    margin-bottom: 11px;
+    max-width: 466px;
+}
+.content_text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+
+    margin-bottom: 16px;
+}
+.content_btn {
+    display: flex;
+    gap: 45px;
+}
+.btn {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+}
+.btn_w {
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+
+    background: #fff;
+}
+.imges {
+}
+.footer {
+    margin-bottom: 15px;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
